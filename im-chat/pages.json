@@ -1,0 +1,16 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "im-chat"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "im-chat",
+		"navigationBarBackgroundColor": "#1482d1",
+		"backgroundColor": "#1482d1"
+	}
+}
