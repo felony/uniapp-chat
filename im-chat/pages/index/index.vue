@@ -23,8 +23,7 @@
 			chatInput,
 			messageShow
 		},
-		created: function () {
-			 
+		created: function () { 
 			const res = uni.getSystemInfoSync();
 			this.style.pageHeight = res.windowHeight;
 			this.style.contentViewHeight = res.windowHeight - uni.getSystemInfoSync().screenWidth / 750 * (100); //像素
